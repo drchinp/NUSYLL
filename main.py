@@ -1,6 +1,8 @@
 from collections import defaultdict
 from textblob import TextBlob
 import nltk
+# Download the vader_lexicon
+nltk.download('vader_lexicon')
 from nltk.sentiment import SentimentIntensityAnalyzer
 from transformers import pipeline, TFDistilBertForSequenceClassification, DistilBertTokenizer
 import streamlit as st
