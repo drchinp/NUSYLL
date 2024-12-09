@@ -6,3 +6,4 @@ textblob
 transformers
 matplotlib
 seaborn
+tensorflow
