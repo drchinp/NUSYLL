@@ -1,5 +1,3 @@
-pip install -r requirements.txt
-
 from collections import defaultdict
 from textblob import TextBlob
 import nltk
